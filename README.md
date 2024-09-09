@@ -1,6 +1,6 @@
 # Neon-Eva-Fan-Page
 <p>
-O tema do site é o anime *Neon Genesis Evangelion*. O site utiliza um layout moderno e semântico com HTML5. Ele contém várias seções, incluindo uma página inicial, uma seção de histórias e uma seção de rodapé.
+O tema do site é o anime <i>Neon Genesis Evangelion</i>. O site utiliza um layout moderno e semântico com HTML5. Ele contém várias seções, incluindo uma página inicial, uma seção de histórias e uma seção de rodapé.
 </p>
 
 ## uso
