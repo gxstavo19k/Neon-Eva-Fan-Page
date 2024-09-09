@@ -38,6 +38,11 @@ O tema do site é o anime *Neon Genesis Evangelion*. O site utiliza um layout mo
 ## Contribuição
 Você pode contribuir fazendo um fork deste repositório e abrindo um PR ou comentando algo em `issue`
 
+### Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+```
+
+
 ## Stack utilizada
  <a href="" target="_blank">
 		<img height="36" title="HTML" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg">
