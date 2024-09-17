@@ -1,5 +1,49 @@
-*, body {
+*,
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 48px;
+}
+
+@font-face {
+    font-family: "Mukta";
+    src: url(/fonts/Mukta-Regular.ttf) format("truetype");
+}
+
+:root {
+    font-family: "Mukta", Montserrat, sans-serif, system-ui;
+    line-height: 1.5;
+    font-weight: 400;
+    font: 400 1rem/1.5 "Mukta", Montserrat, sans-serif, system-ui;
+
+    --black: #000000;
+    --purple: #615aa8;
+    --text: #edf1f7;
+    --red: #ec2323;
+    --blue: #0041c2;
+    --darkblue: #02215e;
+    --green: #a0dc58;
+    --yellow: #ffc12b;
+    --Asuka: #f99d53;
+    --violetBlack: #291d2d;
+    --reyAnayami: #3999f8;
+    --Shinji: #02096e;
+    --maroon: #592661;
 }

@@ -22,11 +22,11 @@ export let AppMain = () => {
             ${contentMain.paragraphMain}
           </p>
           <div>
-            <a class="trailer" href="${links.trailer}" target="_blank">${contentMain.buttonAux}</a>
-            <button class="filmes" type="button">${contentMain.buttonMain}</button>
+            <a class="button buttonMain" href="${links.trailer}" target="_blank">${contentMain.buttonAux}</a>
+            <button class="button buttonAux" type="button">${contentMain.buttonMain}</button>
           </div>
         </div>
-        <img class="trio" id="Trio" src="${evaTrio}" alt="Simples foto dos três protagonistas do Anime.">
+        <img class="simple-image" id="Trio" src="${evaTrio}" alt="Simples foto dos três protagonistas do Anime.">
       </main>`;
 
   return containerMain;
