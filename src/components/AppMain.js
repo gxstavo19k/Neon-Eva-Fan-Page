@@ -1,5 +1,6 @@
 import evaTrio from "/trio.png";
-import "@styles/App-Main.css";
+import "@styles/AppMain.css";
+import "@styles/main.css";
 
 export let AppMain = () => {
   const containerMain = document.createElement("div");
@@ -18,7 +19,7 @@ export let AppMain = () => {
 
   containerMain.innerHTML = `<main id="main">
         <div class="main__info">
-          <p class="paragrafo-main">
+          <p class="paragraphMain">
             ${contentMain.paragraphMain}
           </p>
           <div>
