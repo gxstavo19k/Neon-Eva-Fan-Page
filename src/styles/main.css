@@ -1,9 +1,39 @@
+#main {
+    flex: 1;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__info {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p {
+    width: 100%;
+    font-size: 1.115rem;
+    margin: 20px 0 28px;
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+.paragraphMain {
+    color: var(--text);
+}
+
 .button {
     cursor: pointer;
     border: 0;
     width: 100%;
     padding: 10px 0;
-    border-radius: 3px;
+    border-radius: 13px;
     transform: skew(-10deg);
     text-transform: uppercase;
     text-align: center;
@@ -15,31 +45,23 @@
 
 .buttonMain {
     background: var(--maroon);
-    border-radius: 20px;
     transition: 0.5s;
 }
 
 .buttonAux {
     background: transparent;
     border: 5px solid var(--purple);
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-button {
-    background: var(--purple);
-}
-
-.buttonAux:hover {
-    background-color: var(--red);
-    color: var(--black);
     transition: 0.5s;
 }
 
 .buttonMain:hover {
+    background-color: var(--red);
+    color: black;
+}
+
+.buttonAux:hover {
     background-color: var(--green);
     color: var(--black);
-    transition: 0.5s;
 }
 
 .simple-image {
