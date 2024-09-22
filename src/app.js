@@ -1,4 +1,4 @@
-import './global.css';
+import "./global.css";
 import { AppMain } from "@components/AppMain.js";
 
 addEventListener("DOMContentLoaded", () => {
