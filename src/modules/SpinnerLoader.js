@@ -11,7 +11,6 @@ export function SpinnerLoader() {
         if (allLoaded) {
             document.body.classList.remove('loading');
             spinner.remove();
-            console.log("Todos os recursos foram carregados.");
         } else {
             setTimeout(checkIfLoaded, 100);
         }
