@@ -24,7 +24,7 @@ export let AppMain = () => {
           </p>
           <div>
             <a class="buttonMain" href="${links.trailer}" target="_blank">${contentMain.buttonAux}</a>
-            <button class="buttonAux" type="button">${contentMain.buttonMain}</button>
+            <button class="buttonAux" type="button" onclick="window.open('https://neongenesisevangelion.fandom.com/pt-br/wiki/Neon_Genesis_Evangelion#Composi%C3%A7%C3%A3o','_blank');">${contentMain.buttonMain}</button>
           </div>
         </div>
         <img class="simple-image" id="Trio" src="${evaTrio}" alt="Simples foto dos três protagonistas do Anime.">
