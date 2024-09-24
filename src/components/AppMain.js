@@ -1,5 +1,6 @@
 import evaTrio from "/trio.png";
-import "@styles/App-Main.css";
+import "@styles/AppMain.css";
+import "@styles/main.css";
 
 export let AppMain = () => {
   const containerMain = document.createElement("div");
@@ -18,12 +19,12 @@ export let AppMain = () => {
 
   containerMain.innerHTML = `<main id="main">
         <div class="main__info">
-          <p class="paragrafo-main">
+          <p class="paragraphMain">
             ${contentMain.paragraphMain}
           </p>
           <div>
-            <a class="button buttonMain" href="${links.trailer}" target="_blank">${contentMain.buttonAux}</a>
-            <button class="button buttonAux" type="button">${contentMain.buttonMain}</button>
+            <a class="buttonMain" href="${links.trailer}" target="_blank">${contentMain.buttonAux}</a>
+            <button class="buttonAux" type="button">${contentMain.buttonMain}</button>
           </div>
         </div>
         <img class="simple-image" id="Trio" src="${evaTrio}" alt="Simples foto dos três protagonistas do Anime.">

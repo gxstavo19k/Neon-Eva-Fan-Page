@@ -1,0 +1,271 @@
+#container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 48px;
+}
+
+#main {
+    flex: 1;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__info {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p {
+    width: 100%;
+    font-size: 1.115rem;
+    margin: 20px 0 28px;
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+.paragraphMain {
+    color: var(--text);
+}
+
+.buttonMain {
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 13px;
+    transform: skew(-10deg);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.buttonAux {
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 13px;
+    transform: skew(-10deg);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.buttonMain {
+    background: var(--maroon);
+    transition: 0.5s;
+}
+
+.buttonAux {
+    background: transparent;
+    border: 5px solid var(--purple);
+    transition: 0.5s;
+}
+
+.buttonMain:hover {
+    background-color: var(--red);
+    color: black;
+}
+
+.buttonAux:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.simple-image {
+    width: 550px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 14px;
+}
+
+#trio,
+.simple-image:hover {
+    opacity: 0;
+}
+
+@media (max-width: 1200px) {
+
+    #main>img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #main {
+        justify-content: center;
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__info p {
+        text-align: center;
+    }
+
+    .main__info div {
+        width: 100%;
+    }
+
+    #main>img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main__info>img {
+        width: 200px;
+    }
+
+    .main__info p {
+        font-size: 13px;
+    }
+
+    .main__info div {
+        column-gap: 16px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (width <=380px) {
+
+    .buttonMain,
+    .buttonAux {
+        display: none;
+    }
+}
+
+@media (max-width: 999px) {
+
+    #main {
+        justify-content: center;
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__info p {
+        text-align: center;
+    }
+
+    .main__info div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 700px) {
+
+    .main__info p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+
+    .main__info p {
+        font-size: 10px;
+    }
+}
+
+@media (max-height: 700px) {
+
+    #main {
+        justify-content: center;
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__info p {
+        text-align: center;
+    }
+
+    .main__info div {
+        width: 100%;
+    }
+
+    #main>img {
+        display: none;
+    }
+}
+
+@media (max-width: 1330px) {
+
+    #main {
+        justify-content: center;
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__info p {
+        text-align: center;
+    }
+
+    .main__info div {
+        width: 100%;
+    }
+
+    #main>img {
+        display: none;
+    }
+}
+
+@media (height <=770px) {
+
+    #main>.simple-image {
+        display: none;
+    }
+
+    #main {
+        justify-content: center;
+    }
+}
+
+@media (height <=330px) {
+
+    .main__info {
+        display: none;
+    }
+}
+
+@media (max-height: 400px) and (max-width: 900px) {
+    
+    .main__info div {
+        display: none;
+    }
+}
