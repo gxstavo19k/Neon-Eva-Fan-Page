@@ -7,10 +7,5 @@ export const videoBackground = () => {
   videoContainer.innerHTML = ` <video class="video" autoplay muted loop>
          <source src="${videoSrcURL}" type="video/mp4" />
        </video>`;
-
-  // const videoElement = videoContainer.querySelector('video');
-  // videoElement.addEventListener('loadeddata', () => {
-  //     videoContainer.style.visibility = 'visible'; // Exibe o container quando o vídeo estiver pronto
-  // });
   return videoContainer;
 };
