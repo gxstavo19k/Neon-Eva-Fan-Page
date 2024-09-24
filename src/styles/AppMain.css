@@ -7,6 +7,100 @@
     padding: 0 48px;
 }
 
+#main {
+    flex: 1;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__info {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p {
+    width: 100%;
+    font-size: 1.115rem;
+    margin: 20px 0 28px;
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+.paragraphMain {
+    color: var(--text);
+}
+
+.buttonMain {
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 13px;
+    transform: skew(-10deg);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.buttonAux {
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 13px;
+    transform: skew(-10deg);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.buttonMain {
+    background: var(--maroon);
+    transition: 0.5s;
+}
+
+.buttonAux {
+    background: transparent;
+    border: 5px solid var(--purple);
+    transition: 0.5s;
+}
+
+.buttonMain:hover {
+    background-color: var(--red);
+    color: black;
+}
+
+.buttonAux:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.simple-image {
+    width: 550px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 14px;
+}
+
+#trio,
+.simple-image:hover {
+    opacity: 0;
+}
+
 @media (max-width: 1200px) {
 
     #main>img {
